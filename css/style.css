@@ -1,0 +1,36 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.header-strip{
+  height: 80px;
+  background-color: #F5F8FA;
+  border-bottom: 1px solid #cbd6e2;
+}
+
+.header-menu{
+  height: 80px;
+  background-color: #fff;
+}
+
+.header-banner{
+  position: relative;
+  width: 100%;
+  height: 700px;
+  background-image: url(../img/jumbotron.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: inset 0 11px 8px -10px rgba(51,71,91,0.12);
+}
+
+.header-bottom-strip{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 84px;
+  background-color: #AFEBE4;
+  border-top: 3px solid #33475C;
+  border-bottom: 3px solid #33475C;
+}
