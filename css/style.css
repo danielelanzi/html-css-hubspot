@@ -4,17 +4,53 @@
   padding: 0;
 }
 
+/* regola width 80% */
+.width{
+  width: 80%;
+}
+
+/* regola margin bottom/right/left */
+.margin{
+  margin: 0 10% 3% 10%;
+}
+
+/* regola padding */
+.padding{
+  padding-top: 3%;
+}
+
+/* regola radius/shadow */
+.box-effect{
+  border-radius: 4px;
+  box-shadow: 0px 0px 8px rgba(51,71,91,0.12);
+}
+
+/* regola clearfix */
+.clearfix::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/* regola float left */
+.float-left{
+  float: left;
+}
+
+/* menu superiore */
 .header-strip{
   height: 80px;
   background-color: #F5F8FA;
   border-bottom: 1px solid #cbd6e2;
 }
 
+/* menu inferiore */
 .header-menu{
   height: 80px;
   background-color: #fff;
 }
 
+/* banner */
 .header-banner{
   position: relative;
   width: 100%;
@@ -33,4 +69,44 @@
   background-color: #AFEBE4;
   border-top: 3px solid #33475C;
   border-bottom: 3px solid #33475C;
+}
+
+/* prima sezione del main */
+
+.container1{
+  height: 1500px;
+  background-color: rgb(245, 248, 250);
+}
+
+.cube{
+  height: 200px;
+  background-color: white;
+}
+
+.crm-hub{
+  height: 200px;
+  background-color: white;
+}
+
+.sub-container{
+  width: 80%;
+}
+
+.marketing-hub{
+  width: 30%;
+  height: 400px;
+  background-color: white;
+}
+
+.sales-hub{
+  width: 30%;
+  height: 400px;
+  margin: 0 5% 3% 5%;
+  background-color: white;
+}
+
+.service-hub{
+  width: 30%;
+  height: 400px;
+  background-color: white;
 }
