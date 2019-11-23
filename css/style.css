@@ -21,7 +21,7 @@
 
 /* regola padding */
 .padding{
-  padding-top: 3%;
+  padding: 3%;
 }
 
 /* regola radius/shadow */
@@ -128,14 +128,20 @@
   background-color: white;
 }
 
-div .block-information:last-child{
+.list-information-top div:last-child{
   border-width: 0 0 1px 0;
   border-style: solid;
   border-color: black;
 }
 
-div .block-information:nth-child(-n+3){
+.list-information-top div:nth-child(-n+3){
   border-width: 0 1px 1px 0;
+  border-style: solid;
+  border-color: black;
+}
+
+.list-information-bottom div:nth-child(-n+3){
+  border-width: 0 1px 0 0;
   border-style: solid;
   border-color: black;
 }
