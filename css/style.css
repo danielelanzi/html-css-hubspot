@@ -8,6 +8,10 @@ body{
   font-family: arial, sans-serif;
 }
 
+h1, h2, h3, h4{
+  color: #33475B;
+}
+
 p{
   line-height: 30px;
   color: #425467;
@@ -218,13 +222,55 @@ p{
 
 /* div con sfondo */
 .crm-hub{
-  background-color: white;
+  position: relative;
+  background-color: #fff;
 }
+
 .crm-left{
-  text-align: center;
+  width: 25%;
 }
+
 .crm-left a{
   padding: 20px 30px;
+}
+
+.crm-right{
+  width: 75%;
+  text-align: left;
+}
+
+.crm-right p:first-child{
+  font-size: 14px;
+}
+
+.crm-right p:nth-child(3){
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 15px 0 15px;
+}
+
+.crm-right hr{
+  position: absolute;
+  top: 61%;
+  left: 35%;
+  width: 52%;
+  border: 0.5px solid #e0e6ed;
+}
+
+.check ul{
+  list-style: none;
+}
+
+.check li{
+  display: inline;
+  padding-right: 15px;
+  color: #33475B;
+}
+
+.check li i{
+  padding-right: 15px;
+  color: #FF7A59;
 }
 
 /* div float con sfondo */
