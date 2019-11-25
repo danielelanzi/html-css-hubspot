@@ -2,22 +2,65 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
     <link rel="stylesheet" href="css/style.css">
     <title></title>
   </head>
   <body>
+
     <!-- intestazione -->
     <header>
       <!-- menu superiore -->
-      <div class="header-strip"></div>
+      <div class="header-strip clearfix">
+        <!-- nav superiore sinistro -->
+        <nav class="contact marginrl float-left">
+          <ul>
+            <li><a href="#"><i class="fas fa-globe-europe"></i></a></li>
+            <li><a href="#">English</a></li>
+            <li><a href="#"><i class="fas fa-chevron-down"></i></a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </nav>
+        <!-- /nav superiore sinistro -->
+
+        <!-- nav superiore destro -->
+        <nav class="login float-right marginrl">
+          <a href="#"><i class="fas fa-search"></i></a>
+          <a href="#">Log in</a>
+          <a class="button-orange" href="#">GetHubspotFree</a>
+        </nav>
+        <!-- /nav superiore destro -->
+      </div>
       <!-- /menu superiore -->
 
       <!-- menu inferiore -->
-      <div class="header-menu"></div>
+      <div class="header-menu clearfix">
+        <img class="logohub marginrl float-left" src="img/logo.svg" alt="">
+        <nav class="header-submenu marginrl float-right">
+          <ul>
+            <li>Software</li>
+            <li><a href="#"><i class="fas fa-chevron-down"></i></a></li>
+            <li>Pricing</li>
+            <li>Resources</li>
+            <li><a href="#"><i class="fas fa-chevron-down"></i></a></li>
+            <li>Partners</li>
+            <li><a href="#"><i class="fas fa-chevron-down"></i></a></li>
+            <li>About</li>
+            <li><a href="#"><i class="fas fa-chevron-down"></i></a></li>
+          </ul>
+        </nav>
+      </div>
       <!-- /menu inferiore -->
 
       <!-- banner -->
       <div class="header-banner">
+        <div class="text-banner marginrl">
+          <h1 class="marginb">There’s a better way to grow.</h1>
+          <p>Marketing, sales, and service software that helps your business grow without compromise. Because “good for the business” should also mean “good for the customer.”</p>
+          <div class="button"><a class="button-orange" href="#">GetHubSpotfree</a>
+          </div>
+          <p>Get started with FREE tools, and upgrade as you grow.</p>
+        </div>
         <div class="header-bottom-strip"></div>
       </div>
       <!-- /banner -->
@@ -26,17 +69,29 @@
 
     <!-- main -->
     <main>
+
       <!-- prima sezione del main -->
       <section class="container1 padding">
 
         <!-- div senza sfondo -->
         <div class="cube width margin padding">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          <img src="img/cubo.png" alt="">
+          <h2 class="marginb">Powerful alone. Better together.</h2>
+          <p>HubSpot offers a full stack of software for marketing, sales, and customer service, with a completely free CRM at its core. They’re powerful alone — but even better when used together.</p>
         </div>
         <!-- /div senza sfondo -->
 
         <!-- div con sfondo -->
-        <div class="crm-hub width margin padding box-effect">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        <div class="crm-hub width margin padding box-effect clearfix">
+          <div class="crm-left float-left">
+            <img src="img/crm.png" alt="">
+            <div class="button">
+              <a href="" class="button-orange">Learn more</a>
+            </div>
+          </div>
+          <div class="crm-right float-left">
+
+          </div>
         </div>
         <!-- /div con sfondo -->
 
@@ -64,7 +119,7 @@
         </div>
         <!-- /div senza sfondo -->
 
-        <!-- div con float -->
+        <!-- div con float senza sfondo -->
         <div class="list-information marginrl">
           <div class="list-information-top clearfix">
             <div class="block-information float-left">
@@ -95,16 +150,40 @@
             </div>
           </div>
         </div>
-        <!-- /div con float -->
+        <!-- /div con float senza sfondo -->
 
       </section>
       <!-- seconda sezione del main -->
+
+      <!-- terza sezione del main -->
+      <section class="container3 padding">
+        <div class="sub-container3 clearfix marginrl">
+          <div class="statistics float-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+          <div class="companies-logo float-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+        </div>
+
+      </section>
+      <!-- /terza sezione del main -->
 
     </main>
     <!-- /main -->
 
     <!-- footer -->
     <footer>
+      <div class="container4 padding">
+        <div class="generl-link clearfix marginrl">
+          <div class="general-information-link float-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+          <div class="general-information-link float-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+          <div class="general-information-link float-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+          <div class="general-information-link float-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+        </div>
+        <div class="choice-language"></div>
+        <hr class="width">
+        <div class="copyright-privacy clearfix margin">
+          <div class="copyright float-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+          <div class="privacy float-right">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+        </div>
+      </div>
 
     </footer>
     <!-- /footer -->

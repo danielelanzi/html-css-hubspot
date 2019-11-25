@@ -4,6 +4,15 @@
   padding: 0;
 }
 
+body{
+  font-family: arial, sans-serif;
+}
+
+p{
+  line-height: 30px;
+  color: #425467;
+}
+
 /* regola width 80% */
 .width{
   width: 80%;
@@ -19,9 +28,14 @@
   margin: 0 10% 0 10%;
 }
 
+/* regola margin bottom */
+.marginb{
+  margin-bottom: 30px;
+}
+
 /* regola padding */
 .padding{
-  padding: 3%;
+  padding: 3% 7%;
 }
 
 /* regola radius/shadow */
@@ -42,22 +56,105 @@
   float: left;
 }
 
+/* regola float right */
+.float-right{
+  float: right;
+}
+
+/* regola bottone arancione */
+.button-orange{
+  color: white;
+  background-color: #FF7A59;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
 /* menu superiore */
 .header-strip{
-  height: 80px;
+  position: relative;
+  margin: 0 auto;
   background-color: #F5F8FA;
   border-bottom: 1px solid #cbd6e2;
+  height: 80px;
+  line-height: 80px;
+}
+
+/* nav superiore sinistro */
+
+.contact ul{
+  list-style: none;
+}
+
+.contact li{
+  display: inline;
+}
+
+.contact li a{
+  color: #33475B;
+  text-decoration: none;
+}
+
+.contact li:nth-child(4){
+  padding: 3px 15px;
+  margin-left: 15px;
+  border-left: 2px solid #7D98B6;
+}
+
+/* nav superiore destro */
+.login a{
+  display: inline;
+  text-decoration: none;
+  padding: 10px 10px;
+  margin-right: 10px;
+}
+
+.login a i{
+  color: #02A4BD;
+  vertical-align: middle;
+}
+
+.login a:nth-child(2){
+  color: #FF7A59;
+  background-color: #fafdff;
+  border: 1px solid #FF7A59;
+  border-radius: 4px;
 }
 
 /* menu inferiore */
 .header-menu{
-  height: 80px;
+  position: relative;
+  margin: 0 auto;
   background-color: #fff;
+  height: 80px;
+  line-height: 80px;
+}
+
+.logohub{
+  max-width: 100%;
+  vertical-align: middle;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.header-submenu ul{
+  list-style: none;
+}
+
+.header-submenu li{
+  display: inline;
+  padding: 0 5px;
+  margin-right: 5px;
+}
+
+.header-submenu li a{
+  color: #33475B;
+  text-decoration: none;
 }
 
 /* banner */
 .header-banner{
   position: relative;
+  margin: 0 auto;
   width: 100%;
   height: 700px;
   background-image: url(../img/jumbotron.png);
@@ -66,11 +163,34 @@
   box-shadow: inset 0 11px 8px -10px rgba(51,71,91,0.12);
 }
 
+.text-banner{
+  position: absolute;
+  width: 40%;
+  margin-top: 5%;
+}
+
+.text-banner h1{
+  font-size: 55px;
+}
+
+.button{
+  margin: 10% 0;
+}
+
+.text-banner a.button-orange{
+  padding: 25px 50px;
+}
+
+.text-banner p:last-child{
+  font-size: 12px;
+}
+
 .header-bottom-strip{
   position: absolute;
   bottom: 0;
+  left: 0;
   width: 100%;
-  height: 84px;
+  height: 12%;
   background-color: #AFEBE4;
   border-top: 3px solid #33475C;
   border-bottom: 3px solid #33475C;
@@ -78,20 +198,36 @@
 
 /* prima sezione del main */
 .container1{
-  height: auto;
-  background-color: rgb(245, 248, 250);
+  position: relative;
+  margin: 0 auto;
+  background-color: #F4F9FD;
 }
 
+/* div senza sfondo */
 .cube{
-  height: 200px;
-  background-color: white;
+  text-align: center;
 }
 
+.cube h2{
+  color: #33475B;
+}
+
+.cube p{
+  padding: 0 8%;
+}
+
+/* div con sfondo */
 .crm-hub{
-  height: 200px;
   background-color: white;
 }
+.crm-left{
+  text-align: center;
+}
+.crm-left a{
+  padding: 20px 30px;
+}
 
+/* div float con sfondo */
 .marketing-hub{
   width: 30%;
   height: 400px;
@@ -117,11 +253,13 @@
   background-image: linear-gradient(45deg, #00a4bd, #00bda5);
 }
 
+/* div senza sfondo */
 .information{
   height: 200px;
   background-color: white;
 }
 
+/* div con float senza sfondo */
 .block-information{
   padding: 30px;
   width: calc(100%/4);
@@ -144,4 +282,52 @@
   border-width: 0 1px 0 0;
   border-style: solid;
   border-color: black;
+}
+
+/* terza sezione del main */
+.container3{
+  height: 800px;
+  background-image: url(../img/woman.webp);
+  background-size: 350px;
+  background-position: 80% 80%;
+  background-repeat: no-repeat;
+}
+
+/* div senza sfondo */
+.sub-container3{
+  height: 200px;
+  background-color: red;
+}
+
+/* div con float senza sfondo */
+.statistics{
+  width: 40%;
+  background-color: white;
+}
+
+.companies-logo{
+  width: 60%;
+  background-color: white;
+}
+
+/* footer */
+.container4{
+  height: 800px;
+  background-color: #33475B;
+}
+
+/* div con float senza sfondo */
+.general-information-link{
+  width: calc(100%/4);
+  background-color: white;
+}
+
+.choice-language{
+  height: 40px;
+  background-color: white;
+  margin: 3% 10% 0 10%;
+}
+
+hr{
+  margin: 1% 10% 0 10%;
 }
