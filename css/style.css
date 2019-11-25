@@ -228,6 +228,7 @@ p{
 
 .crm-left{
   width: 25%;
+  text-align: center;
 }
 
 .crm-left a{
@@ -239,7 +240,7 @@ p{
   text-align: left;
 }
 
-.crm-right p:first-child{
+.crm-right p{
   font-size: 14px;
 }
 
@@ -253,12 +254,13 @@ p{
 .crm-right hr{
   position: absolute;
   top: 61%;
-  left: 35%;
-  width: 52%;
+  left: 40%;
+  width: 45%;
   border: 0.5px solid #e0e6ed;
 }
 
-.check ul{
+.crm-right .check ul{
+  font-size: 14px;
   list-style: none;
 }
 
@@ -276,8 +278,13 @@ p{
 /* div float con sfondo */
 .marketing-hub{
   width: 30%;
-  height: 400px;
   background-color: white;
+  text-align: center;
+}
+
+.marketing-hub p{
+  padding: 10%;
+  font-size: 14px;
 }
 
 .sales-hub{
